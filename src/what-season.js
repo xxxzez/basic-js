@@ -1,6 +1,6 @@
 module.exports = function getSeason(date) {
   if (date === undefined) return 'Unable to determine the time of year!';
-  // if (Date.setPrototypeOf(date) !== Date) {
+  // if (Date.getPrototypeOf(date) !== Date) {
   //   throw new TypeError;
   // }
   let myMonth = date.getMonth();
