@@ -1,12 +1,18 @@
 class VigenereCipheringMachine {
-    encrypt() {
-        throw 'Not implemented';
-        // remove line with error and write your code here
+
+    constructor(name){
+        this.name = name;
     }
 
-    decrypt() {
-        throw 'Not implemented';
-        // remove line with error and write your code here
+    encrypt(message, key) {
+        if(typeof (arguments[0]) !== 'string' || typeof (arguments[1]) !== 'string') throw Error;    
+        return message;
+    }
+
+    decrypt(encryptedMessage, key) {
+        if(typeof (arguments[0]) !== 'string' || typeof (arguments[1]) !== 'string') throw Error;    
+        
+        return encryptedMessage;
     }
 }
 
