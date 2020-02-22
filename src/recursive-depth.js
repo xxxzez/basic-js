@@ -9,8 +9,6 @@ module.exports = class DepthCalculator {
                 let depth = this.calculateDepth(arr[i], myValue + 1);
                 if(depth > intermediateValue){
                     intermediateValue = depth;
-                } else {
-                    intermediateValue;
                 }
             }
         }
